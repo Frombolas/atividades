@@ -27,19 +27,13 @@
             outline: none;
             font-size: 15px;
         }
-        button{
-            background-color: dodgerblue;
-            border: none;
-            padding: 15px;
-            width: 100%;
-            border-radius: 10px;
-            color: white;
-            font-size: 15px;
+        form{
 
-        }
-        button:hover{
-            background-color: deepskyblue;
-            cursor: pointer;
+          border: none;
+          width: 100%;
+          border-radius: 10px;
+          font-size: 15px;
+          text-align: center;
         }
     </style>
 </head>
@@ -48,7 +42,7 @@
         <h1>Login</h1>
         <input type="text" placeholder="Nome">
         <br><br>
-        <input type="password" placeholder="Senha">
+        <input type="password" placeholder="Senha"required>
         <br><br>
         <label for="rend">Renda mensal:</label><br>
     <select id="rend" name="rend">
@@ -62,9 +56,9 @@
       <label for="html">Sim</label><br>
       <input type="radio" name="#" value="#">
       <label for="html">Não</label><br><br>
-      <form action="disponíveis.html">
-        <button type="submit">Continuar</button>
-    </form>
+      <form action="./disponiveis.html"  method="post">
+        <input type="submit" value="Entrar">
+      </form>
 
 
     </div>
